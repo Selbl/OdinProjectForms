@@ -1,0 +1,101 @@
+/* Main Container */
+
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    font-family: 'papyrus', 'times new roman', 'Sans-serif';
+    background-color: rgb(231, 222, 222);
+}
+
+#mainContainer {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+#topContainer, #formContainer, #bottomContainer {
+    margin-bottom: 20px;
+}
+
+/* Side image */
+
+#imgContainer {
+    flex: 0 0 auto;
+    height: 100%;
+}
+
+#badgerImg{
+    height: 100%;
+    object-fit: cover;
+}
+
+/*
+#imgContainer img {
+    height: 100%;
+    object-fit: cover;
+}
+*/
+
+
+
+/* Right Side */
+
+
+#rightContainer {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding: 20px;
+}
+
+/* Top Text */
+.topText {
+    font-weight: bold;
+}
+
+/* Form */
+
+label {
+    font-family: "Copperplate", "Copperplate Gothic Light", sans-serif;
+}
+
+#letsdoIt {
+    font-weight: bolder;
+}
+
+#formContainer {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(233, 226, 226);
+}
+
+.gridContainer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.gridItem {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Bottom Text */
+
+a:link {
+    color: rgb(193, 115, 55); 
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: rgb(142, 86, 44)k;
+    text-decoration: none;
+  }
+
+#btnCreate {
+    color:rgb(222, 212, 199);
+    background-color: rgb(193, 115, 55);
+    padding: 10px;
+}

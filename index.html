@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<title>Sign-up Form</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="stylesheet" href="style.css">
+<script src="script.js"></script>
+<body>
+<div id = 'mainContainer'>
+    <div id = 'imgContainer'>
+        <img id="badgerImg" src="imgs/badgerLong.png" alt="Meles Meles staring to the horizon">
+    </div>
+    <div id="rightContainer">
+        <div id="topContainer">
+            <p class = "topText">This is not a real online service! </p>
+            <p class = "topText"> Have you ever heard of the mythical Mega Meles? Join our forum to learn more about it!</p>
+            <p class="topText">Sign up <em>now</em> to get started!</p>
+            <p class="topText">You <em>know</em> you want to</p>
+        </div>
+        <div id="formContainer">
+            <form action="/my-handling-form-page" method="post">
+                <p class="formText" id="letsdoIt">Let's do this!</p>
+                <div class="gridContainer">
+                    <div class="gridItem">
+                        <label for="fname">First Name:</label>
+                        <input type="text" id="fname" name="first_name">
+                    </div>
+                    <div class="gridItem">
+                        <label for="lname">Last Name:</label>
+                        <input type="text" id="lname" name="last_name">
+                    </div>
+                    <div class="gridItem">
+                        <label for="mail">Email:</label>
+                        <input type="email" id="mail" name="user_email">
+                    </div>
+                    <div class="gridItem">
+                        <label for="phn">Phone Number:</label>
+                        <input type="text" id="phone" name="phone_number"></input>
+                    </div>
+                    <div class="gridItem">
+                        <label for="pass">Password:</label>
+                        <input type="password" id="password" name="password"></input>
+                    </div>
+                    <div class="gridItem">
+                        <label for="pass_conf">Confirm Password:</label>
+                        <input type="password" id="password_conf" name="password_conf"></input>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div id="bottomContainer">
+            <button id="btnCreate">Create an Account</button>
+            <p class="bottomText">Already have an account? <a href="nowhere.html">Log in</a></p>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
